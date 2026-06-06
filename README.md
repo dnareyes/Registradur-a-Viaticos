@@ -57,7 +57,7 @@ Algunos hallazgos útiles del análisis fueron:
 - `position_level` concentra los valores faltantes del dataset.
 - Se detectó que varias variables categóricas están relacionadas entre sí, especialmente cargo y tipo de vinculación.
 
-## App en Streamlit
+## App en Streamlit 
 
 La app ubicada en [apps/streamlit_app.py](apps/streamlit_app.py) permite explorar el dataset sin abrir el notebook. Incluye:
 
@@ -69,12 +69,12 @@ La app ubicada en [apps/streamlit_app.py](apps/streamlit_app.py) permite explora
 - Predicción individual de viáticos.
 - Un espacio para dejar conclusiones narrativas.
 
-## Requisitos
+## Como correrla de manera local
 
 - Python 3.10 o superior. Se recomienda Python 3.12.
 - Dependencias listadas en [requirements.txt](requirements.txt).
 
-## Instalación
+### Instalación
 
 ```bash
 python -m venv .venv
@@ -82,13 +82,13 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## Ejecución de la app
+### Ejecución de la app
 
 ```bash
 streamlit run apps/streamlit_app.py
 ```
 
-## Ruta de datos
+### Ruta de datos
 
 Por defecto la app intenta cargar:
 
@@ -98,16 +98,18 @@ Estadística para analitica de datos/data/processed/registraduria_database_clean
 
 Si necesitas usar otro archivo, cambia la ruta desde la barra lateral de la app.
 
+## Enlace de la app usando Streamlit deploy
+
+[Análisis de Viaticos Registraduría](https://registradur-a-viaticos-3f9vi8hoyxiv5snt3vnaxq.streamlit.app/)
+
+## Enlace Notebook Colab
+
+[Google Drive - Colab](https://drive.google.com/file/d/1V91nWS5MC-6PZplbrOIyh5C-borQHV1P/view?usp=sharing)
+
 ## Estructura del repositorio
 
 - [apps/streamlit_app.py](apps/streamlit_app.py): app interactiva.
 - [Estadística para analitica de datos/notebooks/Proyecto_Final_Estadistica.ipynb](Estad%C3%ADstica%20para%20analitica%20de%20datos/notebooks/Proyecto_Final_Estadistica.ipynb): notebook principal del proyecto.
 - [Estadística para analitica de datos/data/](Estad%C3%ADstica%20para%20analitica%20de%20datos/data/raw/): datos originales usados para el análisis.
 
-# Enlace de la app
 
-[Análisis de Viaticos Registraduría](https://registradur-a-viaticos-3f9vi8hoyxiv5snt3vnaxq.streamlit.app/)
-
-# Enlace Colab
-
-[Google Drive - Colab](https://drive.google.com/file/d/1V91nWS5MC-6PZplbrOIyh5C-borQHV1P/view?usp=sharing)
