@@ -25,9 +25,7 @@ from sklearn.preprocessing import OneHotEncoder, OrdinalEncoder, StandardScaler
 APP_DIR = Path(__file__).resolve().parent
 DEFAULT_DATA_PATH = (
     APP_DIR.parent
-    / "Estad\u00edstica para analitica de datos"
     / "data"
-    / "processed"
     / "registraduria_database_clean.xlsx"
 )
 
