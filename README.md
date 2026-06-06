@@ -107,3 +107,7 @@ Si necesitas usar otro archivo, cambia la ruta desde la barra lateral de la app.
 # Enlace de la app
 
 [Análisis de Viaticos Registraduría](https://registradur-a-viaticos-3f9vi8hoyxiv5snt3vnaxq.streamlit.app/)
+
+# Enlace Colab
+
+[Google Drive - Colab](https://drive.google.com/file/d/1V91nWS5MC-6PZplbrOIyh5C-borQHV1P/view?usp=sharing)
