@@ -103,3 +103,7 @@ Si necesitas usar otro archivo, cambia la ruta desde la barra lateral de la app.
 - [apps/streamlit_app.py](apps/streamlit_app.py): app interactiva.
 - [Estadística para analitica de datos/notebooks/Proyecto_Final_Estadistica.ipynb](Estad%C3%ADstica%20para%20analitica%20de%20datos/notebooks/Proyecto_Final_Estadistica.ipynb): notebook principal del proyecto.
 - [Estadística para analitica de datos/data/](Estad%C3%ADstica%20para%20analitica%20de%20datos/data/raw/): datos originales usados para el análisis.
+
+# Enlace de la app
+
+[Análisis de Viaticos Registraduría](https://registradur-a-viaticos-3f9vi8hoyxiv5snt3vnaxq.streamlit.app/)
